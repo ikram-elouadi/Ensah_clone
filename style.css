@@ -1,0 +1,97 @@
+body{
+	background-color: #e1f1dd;
+}
+.container{
+	margin-left: 1%;
+	margin-right: 2%;
+
+}
+.c1{
+	position: absolute;
+	height: 65%;
+	width: 57%;
+	background-color: white;
+}
+.c2{
+	position: absolute;
+	height: 65%;
+	width: 37%;
+	left: 61%;
+	background-color: white;
+}
+.c3{
+	position: absolute;
+	height: 98%;
+	width: 37%;
+	top: 69%;
+	left: 61%; 
+	background-color: white;
+}
+.c4{
+	position: absolute;
+	height: 36%;
+	width: 57%;
+	top: 69%; 
+	background-color: white;
+
+}
+.c5{
+	position: absolute;
+	height: 53%;
+	width: 28%;
+	top: 109%; 
+	background-color: white;
+}
+.c6{
+	position: absolute;
+	height: 53%;
+	width: 28%;
+	top: 109%; 
+	left: 30.5%;
+	background-color: white;
+}
+.button{
+        background-color:blue;
+        width:50%;
+        height:40px;
+        cursor: pointer;
+       
+        margin-left:45%;
+        text-align:center;
+    }
+ @media (min-width: 320px) and (max-width : 767px)
+  {
+  	.c1{    
+  	   height: 56%;
+       width: 96%;
+      }
+    .c2{
+    	height: 63%;
+        width: 96%;
+        top: 61%;
+        left: 2%;
+      }
+      .c3{
+      	height: 102%;
+        width: 96%;
+        top: 128%;
+        left: 2%
+      }
+      .c4{
+      	height: 52%;
+        width: 96%;
+        top: 234%;
+      }
+      .c5{
+      	height: 64%;
+        width: 96%;
+        top: 290%;
+      }
+      .c6{
+      	height: 53%;
+        width: 96%;
+        top: 359%;
+        left: 2%;
+      }
+
+  }
